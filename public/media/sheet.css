@@ -1,0 +1,155 @@
+﻿#Release:2014.07.14{;}
+#Web.Master:Spornov{;}
+
+* {margin: 0;padding: 0;}
+p {margin-bottom: 1.5em;}
+ul li.first {padding-top: 0;border-top: 0;}
+ul {list-style: none;}
+br.clearfix {clear: both;}
+strong {color: #222222;}
+body {background: #FFFFFF;font-size: 11pt;color: #323232;}
+body, input {font-family: Arial, sans-serif;}
+
+#Content{}
+
+#wrapper {width: 100%;padding-top:30px;}
+#content {color: black;margin-top: 45px;margin-left:auto;margin-right:auto;padding:0 10px 0 10px;width:1125px;}
+#footer {margin:0 auto;width:25%;text-align: center;color: #333;font-weight:bold;bottom:0px;padding:15px;border-top:dashed 2px #394554;}
+.mass {margin:0 auto 10px auto;width:100%;text-align: center;color:white;font-weight:bold;height: 30px;overflow: hidden;padding-top: 12px;}
+
+
+#Menu{}
+
+#menu {width:100%;top:0px;position:fixed;height:51px;}
+#menu li {text-align:left;margin:0;}
+#menu ul li{padding: 18px 10px}/*Плитки PC*/
+#menu ul li a {text-decoration: none;color: #fff;padding: 17px 20px;width:100%;font-weight:bold;}
+#menu ul li a:hover{font-weight:bold}
+#menu li ul {margin-bottom:-10000px;list-style-type:none;}
+#menu ul li a.right{float:right;} #menu ul li a.left{float:left;}
+#mobile ul,#express li{display:none;}
+#menu ul li.express:hover li,#menu ul li.express:focus li{display:block;}
+#respective{position: absolute;top: -9999px;left: -9999px;}
+#label{display:none;}
+.responsive{float:left;padding: 0px 1%;}
+#settings{float:right;margin:0 30px}
+
+#Marks{}
+
+.hidden {display: none; }
+.title {width:10%;height:20px;padding-top:5px;text-align:center;right:34px;bottom:0px;position:fixed;font-size:14px;}
+a:hover {color:#394554;text-decoration: none;}
+a {color:#394554;text-decoration: none;border: none;}
+
+#Search{}
+
+#search{padding-left: 29px;width: 100%;height: 45px;overflow: hidden;padding: 0px 4px 0px 30px;margin-left:0%;
+background-image: url(../images/search.png);background-repeat: no-repeat;background-attachment: scroll;
+background-position: 0px center;-webkit-transition: all .1s;-moz-transition: all .1s;transition: all .1s;}
+
+#Tables{}
+
+.table {max-width: 100%;background-color: transparent;border-collapse: collapse;border-spacing: 0;}
+.table {width: 100%;margin-bottom: 30px;}
+.table th img, .table td img {margin:-5px 0px -5px 0px;}
+.table th,.table td {min-width:100px;padding:10px;width:auto;}
+.score,.marks,.group{max-width:50px!important;}
+.code{max-width:20px!important;}
+.table thead th {color: white;}
+.table caption + thead tr:first-child th,
+.table caption + thead tr:first-child td,
+.table colgroup + thead tr:first-child th,
+.table colgroup + thead tr:first-child td,
+.table thead:first-child tr:first-child th,
+.table thead:first-child tr:first-child td {border-top: 0;}
+.table-hover tbody tr:hover td,.table-hover tbody tr:hover th { background-color: #f5f5f5;}table td[class*="span"],table th[class*="span"],
+.table-hover tbody tr:hover td {background-color: #f5f5f5;}
+.hidden tbody tr td:hover {background: #376092;color:#FFFFFF;font-weight:bold;}
+.table-hover thead tr th {text-align:center;color: white;border-bottom:2px solid #373f4d;}
+.table-hover tbody tr td{text-align:left;font-weight:bold;color:#222222;font-size:12px}
+.table-hover tbody tr td.center {text-align:center;font-weight:bold;color:#222222;font-size:12px}
+.table tbody tr.RsearchOn td {text-align: center;background-color: #FFFFFF;border-top: solid 1px #05162b;color: #0088cc;}
+.table-hover tbody tr.RsearchOn:hover td { background-color: #c4e3f3; }
+.plus { text-align:center; }
+.add:hover td { background-color: #c4e3f3;color:#002849; }
+.table tr:hover td.manage { color:black; }
+.manage{cursor:pointer;}
+.navigation  {cursor:pointer;}
+.navigation  a{display:block;}
+
+#Contacts{}
+
+.contact h3 {font-size: 1.2em;}
+.contact p {margin: 5px 0 0 10px;}
+.contact iframe {border: 1px solid #333;margin: 5px 0 0 10px;}
+
+#Querys{}
+
+@media screen and (max-width: 900px) {#content{width:96%}
+
+th.teacher,td.teacher{display:none;}
+#label{width:10%;height:24px;padding: 12px 83%;color:white;}
+@-webkit-keyframes bugfix { from { padding: 0; } to { padding: 0; } }
+body {-webkit-animation: bugfix infinite 1s; }
+#label { cursor: pointer;user-select: none;}
+#label { display: block;width: 100%;}
+#menu li {text-align:center;margin:0;}
+#menu ul li{padding: 0}/*Плитки Tablet*/
+#menu ul li a {text-decoration: none;color: #fff;width:100%;}
+
+
+.symbol:after {content: "\2261";}
+.responsive{display:none;}
+#label{padding: 12px 93%;}
+@-webkit-keyframes bugfix { from { padding: 0; } to { padding: 0; } }
+body {-webkit-animation: bugfix infinite 1s; }
+#label { cursor: pointer;user-select: none;}
+#label { display: block;width: 100%;}
+#menu li {text-align:center;margin:0;}
+#menu ul li{padding: 0}/*Плитки Tablet*/
+#menu ul li a {text-decoration: none;color: #fff;width:100%;}
+.settings{float:left}
+#menu ul li a {float:none;display:block;}
+/* border-top:dashed 1px white; */
+#menu input#respective:checked ~ ul li#mobile ul { display: inline-block;width: 100%;}
+#menu input#respective:checked ~ a #label { color:black}
+}
+
+@media screen and (max-width: 600px) {
+.symbol:after {content: "\2261";}
+.responsive{display:none;}
+
+#label{padding: 12px 91%;}
+#menu input#respective:checked ~ ul li#mobile ul { display: inline-block;width: 100%;}
+#menu input#respective:checked ~ a #label { color:black}
+#content{width:95%}
+th.group,td.group{display:none}
+}
+
+@media screen and (max-width: 520px) {th.special,td.special,th.group,th.teacher,td.group,td.teacher{display:none;} }
+@media screen and (max-width: 480px) {#content{ width:93%;}th.special,td.specialth{display:none}}
+@media screen and (max-width: 400px) { 
+th.special,td.specialth,th.manage
+,td.manage{display:none;}
+#menu li ul {float:none;}
+#content{ width:91%;}
+.symbol:after {content: "\2261";}
+.responsive{display:none;}
+#label{display:block}
+#menu li {text-align:left;margin:0;}
+#menu ul li{padding:0px}/*Плитки*/
+#menu li ul {float:none;}
+#mobile{display:block;}
+#mobile li a{ width: 100%;}
+#label{width:10%;height:24px;padding: 12px 83%;color:white;}
+@-webkit-keyframes bugfix { from { padding: 0; } to { padding: 0; } }
+input[type=checkbox] {position: absolute;top: -9999px;left: -9999px;}
+body {-webkit-animation: bugfix infinite 1s; }
+label { cursor: pointer;user-select: none;}
+label { display: block;width: 100%;}
+}
+
+#Mozila{} @-moz-document url-prefix() { #menu ul{ margin:0px 0 0 0;} #search{width: 97%;height: 25px;}#wrapper{width:97%} #search:focus {width: 97%;}}
+#Chrome{} @media all and (-webkit-min-device-pixel-ratio:0) {#content{max-width:97%} }
+#Opera{}  _:-o-prefocus, #Class {;}
+#Safari{}

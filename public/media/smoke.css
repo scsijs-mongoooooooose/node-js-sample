@@ -1,0 +1,31 @@
+﻿/*
+**  ======================
+**  THEME : ALL DARK SMOKE
+**  ======================
+*/
+   
+.manage {background:#2a3240;!important}
+.title{border-left:dashed 2px #2A3240;border-right:dashed 2px #2A3240;border-top:dashed 2px #2A3240;color:#2A3240;}
+.table-hover thead tr th {color: white;background: #2A3240 ;}
+.table tbody td{border-right:dashed 1px #2A3240;text-align:left;}
+.table tbody td:first-child {border-left:solid 1px #2A3240 }
+.table tbody td:last-child {border-right:solid 1px #2A3240;}
+.table thead th:last-child {border-right:solid 1px #2A3240;}
+.table-hover tbody tr{border-top: solid 1px #2A3240;border-bottom: solid 1px #2A3240;}
+.hidden {border-bottom:solid 1px #2A3240;border-top: solid 1px #2A3240;display: none; }
+
+#menu {background-color: #2A3240;border-bottom:2px solid white}
+#menu ul li a:hover {color:#7F8C8D;}
+.active a{background-color:white;color:#2A3240!important;}
+
+#Paganation{}
+
+.navigation { text-align:center;width: 30%;margin:0 auto;border:solid 1px #2A3240!important;}
+.navigation th:hover {font-weight: bold;background:white;color: #2A3240;}
+.navigation th:hover a{font-weight: bold;background:white;color: #2A3240;}
+.navigation th a{font-weight: bold;color: white;}
+.mass {color:white;border-bottom:1px solid #373f4d;background:#2A3240;}
+
+#search{color:white;border: solid 4px #2A3240;font-size:17px}
+#search:focus {width: 100%;margin-left:0%;background-color:#2A3240;outline: none;}
+

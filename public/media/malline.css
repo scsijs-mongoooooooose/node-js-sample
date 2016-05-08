@@ -1,0 +1,23 @@
+﻿/*
+**  ========================
+**  THEME : ALL DARK MALLINE
+**  ========================
+*/
+
+#content{border:transparent}
+#navigation li a {color: white;}
+.title{border-left:dashed 2px #690322;border-right:dashed 2px #690322;border-top:dashed 2px #690322;color:#690322;}
+
+.table-hover thead tr th {color: white;background: #690322 ;}
+.table tbody td{border-right:dashed 1px #690322;text-align:left}
+.table tbody td:first-child {border-left:solid 1px #690322 }
+.table tbody td:last-child {border-right:solid 1px #690322;}
+.table thead th:last-child {border-right:solid 1px #690322;}
+.add td{text-align: center;backgroun-color: #FFFFFF;color: #690322;border-bottom: solid #690322 2px;border-top: solid #690322 2px;}
+.table-hover tbody tr{border-top: solid 1px #690322;border-bottom: solid 1px #690322;}
+.hidden {border-bottom:solid 1px #690322;border-top: solid 1px #690322;display: none; }
+
+#menu {background-color: #690322;border-bottom:2px solid white}
+#menu ul li a:hover {background-color:white;color: #690322;}
+#menu ul li a {background: #690322;}
+.mass {color:white;border-bottom:1px solid #690322;background:#690322;}

@@ -1,0 +1,61 @@
+﻿<div ng-controller="App">
+<ng-include src="cenNavURL"></ng-include>
+</div>
+				<ul class="mass">
+                        <li>+ Express внесение поступающих в картотеку +</li>
+                </ul>    
+                </table>
+				
+				<br class="clearfix" />
+
+				<table class="table table-hover"  ng-controller="comission">
+				<!-- <tbody>
+                        <tr class="add">
+                            <td>+ Массовое внесение поступающих в картотеку +</td>
+                        </tr>
+                </tbody> -->
+				<thead>
+                        <tr ng-repeat="setting in settings">
+                            <th class="code">{{setting.code}}</th>
+                            <th>{{setting.name}}</th>
+                            <th class="special">{{setting.special}}</th>
+                            <th>{{setting.city}}</th>
+							<th class="marks">{{setting.marks}}</th>
+							<th class="score">{{setting.score}}</th>
+							<th class="group">{{setting.group}}</th>
+							<th>{{setting.date}}</th>
+							<th>{{setting.status}}</th>
+                            <th class="manage">Mенеджер</th>
+                        
+						</tr>
+				</thead><!--Заголовки-->
+
+                <tbody 	id="update"><!--Поступающие-->
+                        <tr ng-repeat="student in students | orderBy:'name'">
+                            <td class="center code">{{student.code}}</td>
+                            <td>пусто</td>
+                            <td class="special">пусто</td>
+                            <td class="city">пусто</td>
+                            <td class="center marks">пусто</td>
+                            <td class="center score">пусто</td>
+                            <td class="center group">пусто</td>
+                            <td class="center date">пусто</td>
+                            <td class="center">пусто</td>
+                            <td class="center manage"><a href="#">ВНЕСТИ</a></td>
+                        </tr>
+				</tbody>
+		</table>
+		
+		<table class="table table-hover"><!--Пагинатор-->
+				<thead>
+                        <tr class="navigation">
+							<th><a href="#">ОБНОВИТЬ</a></th>
+						</tr>
+				</thead>
+		</table>
+		
+		</div>
+        </div>
+<div id="footer">Комиссия © 2014</div>
+</body>
+</html>

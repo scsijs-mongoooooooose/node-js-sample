@@ -1,0 +1,20 @@
+﻿/* ===================
+   THEME : ALL FIOLET
+   ===================*/
+
+#content{border:transparent}
+#navigation li a {color: white;}
+.title{border-left:dashed 2px #604a7b;border-right:dashed 2px #604a7b;border-top:dashed 2px #604a7b;color:#604a7b;}
+
+.table-hover thead tr th {color: white;background: #604a7b ;}
+.table tbody td{border-right:dashed 1px #604a7b;text-align:left}
+.table tbody td:first-child {border-left:solid 1px #604a7b }
+.table tbody td:last-child {border-right:solid 1px #604a7b;}
+.table thead th:last-child {border-right:solid 1px #604a7b;}
+.add td{text-align: center;backgroun-color: #FFFFFF;color: #604a7b;border-bottom: solid #604a7b 2px;border-top: solid #604a7b 2px;}
+.table-hover tbody tr{border-top: solid 1px #604a7b;border-bottom: solid 1px #604a7b;}
+.hidden {border-bottom:solid 1px #604a7b;border-top: solid 1px #604a7b;display: none; }
+
+#menu {background-color: #604a7b;border-bottom:2px solid white}
+#menu ul li a:hover {background-color:white;color: #604a7b;}
+#menu ul li a {background: #604a7b;}

@@ -1,0 +1,22 @@
+﻿/*
+**  ======================
+**  THEME : ALL COLOR BLUE
+**  ======================
+*/
+   
+#content{border:transparent}
+#navigation li a {color: white;}
+.title{border-left:dashed 2px #376092;border-right:dashed 2px #376092;border-top:dashed 2px #376092;color:#376092;}
+
+.table-hover thead tr th {color: white;background: #376092 ;}
+.table tbody td{border-right:dashed 1px #376092;text-align:left}
+.table tbody td:first-child {border-left:solid 1px #376092 }
+.table tbody td:last-child {border-right:solid 1px #376092;}
+.table thead th:last-child {border-right:solid 1px #376092;}
+.add td{text-align: center;backgroun-color: #FFFFFF;color: #376092;border-bottom: solid #376092 2px;border-top: solid #376092 2px;}
+.table-hover tbody tr{border-top: solid 1px #376092;border-bottom: solid 1px #376092;}
+.hidden {border-bottom:solid 1px #376092;border-top: solid 1px #376092;display: none; }
+
+#menu {background-color: #376092;border-bottom:2px solid white}
+#menu ul li a:hover {background-color:white;color: #376092;}
+#menu ul li a {background: #376092;}

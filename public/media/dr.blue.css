@@ -1,0 +1,22 @@
+﻿/*
+**  =====================
+**  THEME : ALL DARK BLUE
+**  =====================
+*/
+   
+#content{border:transparent}
+#navigation li a {color: white;}
+.title{border-left:dashed 2px #05162b;border-right:dashed 2px #05162b;border-top:dashed 2px #05162b;color:#05162b;}
+
+.table-hover thead tr th {color: white;background: #05162b ;}
+.table tbody td{border-right:dashed 1px #05162b;text-align:left}
+.table tbody td:first-child {border-left:solid 1px #05162b }
+.table tbody td:last-child {border-right:solid 1px #05162b;}
+.table thead th:last-child {border-right:solid 1px #05162b;}
+.add td{text-align: center;backgroun-color: #FFFFFF;color: #05162b;border-bottom: solid #05162b 2px;border-top: solid #05162b 2px;}
+.table-hover tbody tr{border-top: solid 1px #05162b;border-bottom: solid 1px #05162b;}
+.hidden {border-bottom:solid 1px #05162b;border-top: solid 1px #05162b;display: none; }
+
+#menu {background-color: #05162b;border-bottom:2px solid white}
+#menu ul li a:hover {background-color:white;color: #05162b;}
+#menu ul li a {background: #05162b;}

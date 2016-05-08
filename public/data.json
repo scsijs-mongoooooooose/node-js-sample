@@ -1,0 +1,77 @@
+[
+  {
+      "code": "1",
+      "name": "Spornov 1.",
+	  "special":"Web Мастер",
+	  "city": "Татарск",
+	  "marks": "4.5",      
+	  "score": "217",
+	  "group":"4781-OB",
+	  "date":"24.07.2014",
+	  "teacher":"Терехов Д.С.",
+	  "status":"Принят",
+      "details": [
+        "education",
+        "based"]
+	},  
+  {
+      "code": "2",
+      "name": "Spornov 2",
+	  "special":"Web Мастер",
+	  "city": "Татарск",
+	  "marks": "4.5",      
+	  "score": "217",
+	  "group":"4781-OB",
+	  "date":"24.07.2014",
+	  "teacher":"Терехов Д.С.",
+	  "status":"Принят",
+      "details": [
+        "education",
+        "based"]
+	},  
+  {
+      "code": "3",
+      "name": "Spornov 3",
+	  "special":"Web Мастер",
+	  "city": "Татарск",
+	  "marks": "4.5",      
+	  "score": "217",
+	  "group":"4781-OB",
+	  "date":"24.07.2014",
+	  "teacher":"Терехов Д.С.",
+	  "status":"Принят",
+      "details": [
+        "education",
+        "based"]
+	},  
+  {
+      "code": "4",
+      "name": "Spornov 4",
+	  "special":"Web Мастер",
+	  "city": "Татарск",
+	  "marks": "4.5",      
+	  "score": "217",
+	  "group":"4781-OB",
+	  "date":"24.07.2014",
+	  "teacher":"Терехов Д.С.",
+	  "status":"Принят",
+      "details": [
+        "education",
+        "based"]
+	},  
+  {
+      "code": "5",
+      "name": "Spornov 5",
+	  "special":"Web Мастер",
+	  "city": "Татарск",
+	  "marks": "4.5",      
+	  "score": "217",
+	  "group":"4781-OB",
+	  "date":"24.07.2014",
+	  "teacher":"Терехов Д.С.",
+	  "status":"Принят",
+      "details": [
+        "education",
+        "based"]
+	}
+]

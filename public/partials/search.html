@@ -1,0 +1,55 @@
+﻿<div ng-controller="App">
+<ng-include src="cenNavURL"></ng-include>
+</div>
+					<form action="/#/search" method="Post">
+                    <input  type="search" id="search"  placeholder="Поиск" ng-model="search.name" />
+					</form>	
+				<br class="clearfix" />
+				
+		<table class="table table-hover"  ng-controller="comission">
+				
+				<thead>
+                        <tr ng-repeat="setting in settings">
+                            <th class="code">{{setting.code}}</th>
+                            <th>{{setting.name}}</th>
+                            <th class="special">{{setting.special}}</th>
+                            <th>{{setting.city}}</th>
+							<th class="marks">{{setting.marks}}</th>
+							<th class="score">{{setting.score}}</th>
+							<th class="group">{{setting.group}}</th>
+							<th>{{setting.date}}</th>
+							<th>{{setting.status}}</th>
+                            <th class="manage">Mенеджер</th>
+                        
+						</tr>
+				</thead><!--Заголовки-->
+
+                <tbody 	id="update"><!--Поступающие-->
+                        <tr ng-repeat="student in students | filter:name | filter:search">
+                            <td class="center code">{{student.code}}</td>
+                            <td>{{student.name}}</td>
+                            <td class="special">{{student.special}}</td>
+                            <td class="city">{{student.city}}</td>
+                            <td class="center marks">{{student.marks}}</td>
+                            <td class="center score">{{student.score}}</td>
+                            <td class="center group">{{student.group}}</td>
+                            <td class="center date">{{student.date}}</td>
+                            <td class="center">{{student.status}}</td>
+                            <td class="center manage" onclick="location.href='#';"><a>РЕДАКТОР</a></td>
+                        </tr>
+				</tbody>
+				
+		</table>
+		
+		<table class="table table-hover"><!--Пагинатор-->
+				<thead>
+                        <tr class="navigation">
+							<th onclick="location.href='#';"><a>НАЗАД</a></th>
+                            <th onclick="location.href='#';"><a>ВПЕРЕД</a></th>
+						</tr>
+				</thead>
+		</table>
+  </div>
+<div id="footer">Комиссия © 2014</div>
+</body>
+</html>
